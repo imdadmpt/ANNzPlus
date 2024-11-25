@@ -1,0 +1,10 @@
+27 Aug 2020
+
+The annz_net was edited such that it declares a string first before declaring the char* arch.
+Originally it worked only for single-hidden-layer cases, now it works for all.
+
+22 Feb 2019
+
+This ANNz library is updated to be used on Ubuntu 18. 
+Somehow the problem was that it couldn't read eof(), so I change it them fail().
+Though note that not all of them have that problem, some eof() seem to work.
