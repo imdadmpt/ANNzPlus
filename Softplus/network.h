@@ -38,8 +38,12 @@ private:
     double wt;
   };
 
-  // Logistic activation function.
+  // (Dec 2024): Implements the Softplus activation function.  
+  // The logistic function serves as a wrapper for Softplus.  
+  // Currently, it behaves identically to the Softplus activation function.  
+
   // Input is activity (Bishop's 'a').
+
   static double logistic(const double a) {
     return std::log(1.0 + std::exp(a));
   }
