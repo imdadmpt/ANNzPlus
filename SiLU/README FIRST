@@ -1,3 +1,8 @@
+18 Dec 2024
+
+The updated code now utilises the SiLU activation function, replacing the sigmoid activation function. 
+The original ANNz used sigmoid activation function.  
+
 27 Aug 2020
 
 The annz_net was edited such that it declares a string first before declaring the char* arch.
