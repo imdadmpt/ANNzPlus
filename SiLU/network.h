@@ -38,7 +38,10 @@ private:
     double wt;
   };
 
-  // Logistic activation function.
+  // (Dec 2024): Implements the SiLU activation function.  
+  // The logistic function serves as a wrapper for SiLU.  
+  // Currently, it behaves identically to the SiLU activation function.  
+
   // Input is activity (Bishop's 'a').
   static double logistic(const double a) {
     return a/(1.0 + std::exp(-a));
