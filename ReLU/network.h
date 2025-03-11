@@ -38,7 +38,10 @@ private:
     double wt;
   };
 
-  // Logistic activation function.
+  // (Dec 2024): Implements the ReLU activation function.  
+  // The logistic function serves as a wrapper for ReLU.  
+  // Currently, it behaves identically to the ReLU activation function. 
+
   // Input is activity (Bishop's 'a').
 
  double max(double a)
