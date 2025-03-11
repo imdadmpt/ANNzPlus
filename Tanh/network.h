@@ -38,8 +38,12 @@ private:
     double wt;
   };
 
-  // Logistic activation function.
+  // (Dec 2024): Implements the tanh activation function.  
+  // The logistic function serves as a wrapper for tanh  
+  // Currently, it behaves identically to the tanh activation function.  
+
   // Input is activity (Bishop's 'a').
+
   static double logistic(const double a) {
     return std::tanh(a);
   }
