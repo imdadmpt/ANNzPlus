@@ -38,7 +38,10 @@ private:
     double wt;
   };
 
-  // Logistic activation function.
+  // (Dec 2024): Implements the Mish activation function.  
+  // The logistic function serves as a wrapper for Mish.  
+  // Currently, it behaves identically to the Mish activation function.  
+
   // Input is activity (Bishop's 'a').
   static double logistic(const double a) {
 
