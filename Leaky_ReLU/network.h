@@ -39,8 +39,8 @@ private:
   };
 
   // (Dec 2024): Implements the Leaky ReLU activation function.  
-  // Logistic function wrapper for Leaky ReLU.  
-  // This function currently behaves identically to Leaky ReLU activation function. 
+  // The logistic function serves as a wrapper for Leaky ReLU.  
+  // Currently, it behaves identically to the Leaky ReLU activation function.  
 
   // Input is activity (Bishop's 'a').
 
