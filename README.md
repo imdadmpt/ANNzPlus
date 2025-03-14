@@ -1,4 +1,4 @@
-# ANNz+
+# ANNz+ (The readme.md is being updated at the moment.) 
 ANNz+ is an upgraded version of the artificial neural networks photometric redshift estimation algorithm (ANNz) by [Collister & Lahav (2004)](https://iopscience.iop.org/article/10.1086/383254). It improves upon the original freely available software package [ANNz](https://www.homepages.ucl.ac.uk/~ucapola/annz.html) by offering better performance and the flexibility to use multiple activation functions, ensuring its continued relevance in the photo-z community. 
 
 ### Publication & Validation  
