@@ -22,3 +22,9 @@ ANNz+ supports the following activation functions:
 User can choose any activation function based on their preference. However, we **recommend using tanh, Leaky ReLU, or ReLU**, as they have demonstrated the best performance in [Mahmud Pathi et al. (2025)](https://iopscience.iop.org/article/10.1088/1475-7516/2025/01/097/meta).  
 
 # Installation Instructions  
+
+1. Download ANNz+
+   
+Open a terminal and run:  
+```bash
+git clone https://github.com/imdadmpt/ANNzPlus
